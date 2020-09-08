@@ -1,0 +1,72 @@
+---
+label: Academic
+hide_body: false
+fields:
+- type: text
+  name: widget
+  label: widget
+- type: boolean
+  name: headless
+  label: headless
+- type: boolean
+  name: active
+  label: active
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: title
+  label: title
+- type: file
+  name: hero_media
+  label: hero_media
+- type: field_group
+  name: design
+  label: design
+  fields:
+  - type: field_group
+    name: background
+    label: background
+    fields:
+    - type: text
+      name: gradient_start
+      label: gradient_start
+    - type: text
+      name: gradient_end
+      label: gradient_end
+    - type: boolean
+      name: text_color_light
+      label: text_color_light
+- type: field_group
+  name: cta
+  label: cta
+  fields:
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: icon_pack
+    label: icon_pack
+  - type: text
+    name: icon
+    label: icon
+- type: field_group
+  name: cta_alt
+  label: cta_alt
+  fields:
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: label
+    label: label
+- type: field_group
+  name: cta_note
+  label: cta_note
+  fields:
+  - type: textarea
+    name: label
+    label: label
