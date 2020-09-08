@@ -1,5 +1,6 @@
 +++
 active = true
+draft = true
 headless = true
 subtitle = "karlitos"
 title = "Projects"
